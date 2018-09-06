@@ -18,41 +18,40 @@ body{
 	background-attachment: fixed;
 }
 	
-.logo{
+#logo{
 	width: 980px;
 	height: 150px;
 	margin: 0 auto;
 	overflow: hidden;
 }
-.logo h1{
+#logo h1{
 	margin-top: 30px;
 }
-
-.dhl{
+#dhl{
 	width: 670px;
 	height: 60px;
 	margin: 0 auto;
 }
-.dhl .left{
+#dhl .left{
 	width: 20px;
 	float: left;
 	height: 60px;
 	background-image: url(../images/dhleft.jpg);
 	background-repeat: no-repeat;
 }
-.dhl .right{
+#dhl .right{
 	width: 20px;
 	float: left;
 	height: 60px;
 	background-image: url(../images/dhright.jpg);
 	background-repeat: no-repeat;
 }
-.dhl ul{
+#dhl ul{
 	width: 624px;
 	height: 60px;
 	float: left;
 }
-.dhl ul li{
+#dhl ul li{
 	width: 104px;
 	height: 60px;
 	text-align: center;
@@ -63,7 +62,7 @@ body{
 	background-image: url(../images/dhl_bg.jpg);
 	background-repeat: repeat-x;
 }
-.dhl ul li .fg{
+#dhl ul li .fg{
 	width: 2px;
 	height: 60px;
 	float: right;
@@ -71,7 +70,7 @@ body{
 	background-repeat: no-repeat;
 	background-position: right 6px;
 }
-.dhl ul li a{
+#dhl ul li a{
 	color: #fff;
 	width: 104px;
 	height: 60px;
@@ -86,12 +85,12 @@ body{
 	background-position: center 0;
 	background-size:980px;
 }
-.content .gamelist{
+.content #gamelist{
 	width: 980px;
 	height: 990px;
 	margin: 10px auto;
 }
-.content .gamelist .left{
+.content #gamelist .left{
 	width: 210px;
 	height: 775px;
 	padding-left: 10px;
@@ -99,7 +98,7 @@ body{
 	float: left;
 	position: relative;
 }
-.content .gamelist .left .up{
+.content #gamelist .left .up{
 	width: 220px;
 	height: 47px;
 	font-size: 20px;
@@ -110,21 +109,21 @@ body{
 	background-image:  url(../images/gamelist_1.png);
 	background-repeat: repeat-x;
 }
-.content .gamelist .left .up .left{
+.content #gamelist .left .up .left{
 	width: 10px;
 	height: 47px;
 	background-image: url(../images/gamelist_left1.gif);
 	background-repeat: no-repeat;
 	float: left;
 }
-.content .gamelist .left .up .right{
+.content #gamelist .left .up .right{
 	width: 10px;
 	height: 47px;
 	background-image: url(../images/gamelist_right1.png);
 	background-repeat: no-repeat;
 	float: right;
 }
-.content .gamelist .left .middle{
+.content #gamelist .left .middle{
 	width: 198px;
 	height: 488px;
 	border: 1px solid #e0e0e0;
@@ -133,10 +132,10 @@ body{
 	left: 20px;
 	background-color: #f4f4f4;
 }
-.content .gamelist .left .middle li{
+.content #gamelist .left .middle li{
 	background-image: url(../images/sanjiao.png);
 	background-repeat: no-repeat;
-	background-size: 10px 15px;
+	background-position: 10px 15px;
 	height: 30px;
 	width: 160px;
 	line-height: 38px;
@@ -146,25 +145,25 @@ body{
 	cursor: pointer;
 	border-bottom: 1px solid #e0e0e0;
 }
-.content .gamelist .left #down{
+.content #gamelist .left .down{
 	position: absolute;
 	bottom: 233px;
 	left: 20px;
 }
-.content .gamelist .right{
+.content #gamelist .right{
 	float: right;
 	width: 730px;
 	height: 750px;
 	padding-top: 20px;
 }
-.content .gamelist .right .up{
+.content #gamelist .right .up{
 	width: 720px;
 	height: 53px;
 	line-height: 13px;
 	background-image: url(../images/gamelist_right_up.png);
 	background-repeat: repeat-x;
 }
-.content .gamelist .right .up .left{
+.content #gamelist .right .up .left{
 	float: left;
 	font-weight: bold;
 	font-size: 16px;
@@ -174,7 +173,7 @@ body{
 	background-image: url(../images/gamelist_right_up_left.png);
 	background-repeat: no-repeat;
 }
-.content .gamelist .right .up .right{
+.content #gamelist .right .up .right{
 	float: right;
 	height: 53px;
 	font-size: 12px;
@@ -185,22 +184,22 @@ body{
 	background-repeat: no-repeat;
 	background-size: 240px 0px;
 }
-.content .gamelist .right .up .right .home{
+.content #gamelist .right .up .right .home{
 	background-image: url(../images/fangzi.png);
 	width: 20px;
 	height: 15px;
 	position: absolute;
 	top: 19px;
 }
-.content .gamelist .right .down{
+.content #gamelist .right .down{
 	width: 700px;
 	height: 630px;
 	margin-left: 15px;
 	margin-top: 20px;
 }
-.content .gamelist .right .down .choose{
+.content #gamelist .right .down .choose{
 }
-.content .gamelist .right .down .choose h1{
+.content #gamelist .right .down .choose h1{
 	padding:0 12px;
 	font-weight:normal;
 	font-size:14px; 
@@ -208,26 +207,26 @@ body{
 	background:#e8e8e8;
 	text-transform:uppercase;
 }
-.content .gamelist .right .down .choose h1 span{
+.content #gamelist .right .down .choose h1 span{
 	float: right;
 }
-.content .gamelist .right .down .choose h1 span a{
+.content #gamelist .right .down .choose h1 span a{
 	color:#888;
 	font-size:12px;
 	line-height:32px;
 }
-.content .gamelist .right .down .choose .choosecontent{
+.content #gamelist .right .down .choose .choosecontent{
 }
-.content .gamelist .right .down .choose .choosecontent dl{
+.content #gamelist .right .down .choose .choosecontent dl{
 	display:inline-block;
 	height:205px;
 	overflow:hidden;
 	margin-right:20px;
 }
-.content .gamelist .right .down .choose .choosecontent dl:last-child{
+.content #gamelist .right .down .choose .choosecontent dl:last-child{
 	margin-right:0px;
 }
-.content .gamelist .right .down .choose .choosecontent dt{
+.content #gamelist .right .down .choose .choosecontent dt{
 	border:1px solid #ccc;
 	width:190px;
 	height:160px;
@@ -237,20 +236,35 @@ body{
 	max-height:160px;
 	vertical-align:middle;
 }
-.content .gamelist .right .down .choose .choosecontent dt img{
+.content #gamelist .right .down .choose .choosecontent dt img{
 	margin:0 auto;
 }
-.content .gamelist .right .down .choose .choosecontent dd{
+.content #gamelist .right .down .choose .choosecontent dd{
 	text-align:center;
 	font-size:12px;
 }
-.content .gamelist .right .down .choose .choosecontent dd p a{
+.content #gamelist .right .down .choose .choosecontent dd p a{
 	color:#000;
 }
-
-.content .gamefx{
+.content #gamelist .right .down li{
+	width: 680px;
+	height: 40px;
+	padding-left:20px;
+	cursor: pointer;
+	border-bottom: 1px dashed #e0e0e0;
+	position: relative;
+	background-image: url(../images/list_point.png);
+	background-repeat: no-repeat;
+	background-position: 5px 20px;
+	line-height: 45px;
 }
-.content .gamefx ul{
+.content #gamelist .right .down h3{
+	text-align: center;
+}
+
+.content #gamefx{
+}
+.content #gamefx ul{
 	background-color: #e6e6e6;
 	background-repeat: repeat;
 	background-attachment: scroll;
@@ -260,7 +274,7 @@ body{
     margin: 0 auto;
     min-width: 740px;
 }
-.content .gamefx ul li{
+.content #gamefx ul li{
 	color: #878787;
     float: left;
     font-size: 16px;
@@ -273,25 +287,25 @@ body{
     width: 96px;
     cursor: pointer;
 }
-.content .gamefx ul li.active{
+.content #gamefx ul li.active{
 	background-image: url("../images/gamefx_chosed.png");
 	background-repeat: no-repeat;
     width: 96px;
     height: 43px;
     color: #fff;
 }
-.content .gamefx .passage{
+.content #gamefx .passage{
 	margin: 0 auto;
     padding: 40px 0px 0px;
     width: 740px;
 }
-.content .gamefx .passage .subtab{
+.content #gamefx .passage .subtab{
 	display: none;
 }
-.content .gamefx .passage .subtab.active{
+.content #gamefx .passage .subtab.active{
 	display: block;
 }
-.content .gamefx .passage .show{
+.content #gamefx .passage .show{
 	width: 720px;
 }
 .content p.sj{
