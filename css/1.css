@@ -36,14 +36,14 @@ body{
 	width: 20px;
 	float: left;
 	height: 60px;
-	background-image: url(../images/dhleft.jpg);
+	background-image: url(../images/dhleft.png);
 	background-repeat: no-repeat;
 }
 #dhl .right{
 	width: 20px;
 	float: left;
 	height: 60px;
-	background-image: url(../images/dhright.jpg);
+	background-image: url(../images/dhright.png);
 	background-repeat: no-repeat;
 }
 #dhl ul{
@@ -61,6 +61,9 @@ body{
 	float: left;
 	background-image: url(../images/dhl_bg.jpg);
 	background-repeat: repeat-x;
+}
+#dhl ul a:hover{
+	color: red;
 }
 #dhl ul li .fg{
 	width: 2px;
@@ -119,7 +122,7 @@ body{
 .content #gamelist .left .up .left{
 	width: 10px;
 	height: 47px;
-	background-image: url(../images/gamelist_left1.gif);
+	background-image: url(../images/gamelist_left1.png);
 	background-repeat: no-repeat;
 	float: left;
 }
@@ -151,6 +154,9 @@ body{
 	font-size: 14px;
 	cursor: pointer;
 	border-bottom: 1px solid #e0e0e0;
+}
+.content #gamelist .left .middle a:hover{
+	color: red;
 }
 .content #gamelist .left .down{
 	position: absolute;
@@ -202,6 +208,9 @@ body{
 	margin-left: 15px;
 	margin-top: 20px;
 }
+.content #gamelist .right .down a:hover{
+	color: red;
+}
 .content #gamelist .right .down .choose{
 }
 .content #gamelist .right .down .choose h1{
@@ -244,12 +253,19 @@ body{
 .content #gamelist .right .down .choose .choosecontent dt img{
 	margin:0 auto;
 }
+.content #gamelist .right .down .choose .choosecontent dt img:hover{
+	weith:330px;
+}
 .content #gamelist .right .down .choose .choosecontent dd{
 	text-align:center;
 	font-size:12px;
 }
 .content #gamelist .right .down .choose .choosecontent dd p a{
 	color:#000;
+	font-size: 15px;
+}
+.content #gamelist .right .down .choose .choosecontent dd p a:hover{
+	color:red;
 }
 .content #gamelist .right .down li{
 	width: 680px;
