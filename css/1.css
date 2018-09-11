@@ -229,6 +229,91 @@ body{
 	font-size:12px;
 	line-height:32px;
 }
+.content #gamelist .right .down .choose li {
+	width:30%;
+	float:left;
+	margin:2.5% 0 0 2.5%;
+	position:relative;
+	background: none;
+	-moz-transition:all 0.5s ease;
+	-webkit-transition:all 0.5s ease;
+	-o-transition:all 0.5s ease;
+	-ms-transition:all 0.5s ease;
+	transition:all 0.5s ease;
+}
+.content #gamelist .right .down .choose li img {
+	max-width:100%;
+	float:left;
+	border:8px solid #fff;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+.content #gamelist .right .down .choose li:hover {
+	-moz-transform:scale(2.6) translate(100px, 38px);
+	-webkit-transform:scale(2.6) translate(100px, 38px);
+	-o-transform:scale(2.6) translate(100px, 38px);
+	-ms-transform:scale(2.6) translate(100px, 38px);
+	transform:scale(2.6) translate(100px, 38px);
+	z-index:2;
+}
+.content #gamelist .right .down .choose li:nth-of-type(2):hover {
+	-moz-transform:scale(2.6) translate(0, 38px);
+	-webkit-transform:scale(2.6) translate(0, 38px);
+	-o-transform:scale(2.6) translate(0, 38px);
+	-ms-transform:scale(2.6) translate(0, 38px);
+	transform:scale(2.6) translate(0, 38px);
+}
+.content #gamelist .right .down .choose li:nth-of-type(3):hover {
+	-moz-transform:scale(2.6) translate(-100px, 38px);
+	-webkit-transform:scale(2.6) translate(-100px, 38px);
+	-o-transform:scale(2.6) translate(-100px, 38px);
+	-ms-transform:scale(2.6) translate(-100px, 38px);
+	transform:scale(2.6) translate(-100px, 38px);
+}
+.content #gamelist .right .down .choose li:nth-of-type(4):hover {
+	-moz-transform:scale(2.6) translate(100px, 0px);
+	-webkit-transform:scale(2.6) translate(100px, 0px);
+	-o-transform:scale(2.6) translate(100px, 0px);
+	-ms-transform:scale(2.6) translate(100px, 0px);
+	transform:scale(2.6) translate(100px, 0px);
+}
+.content #gamelist .right .down .choose li:nth-of-type(5):hover {
+	-moz-transform:scale(2.6) translate(0, 0);
+	-webkit-transform:scale(2.6) translate(0, 0);
+	-o-transform:scale(2.6) translate(0, 0);
+	-ms-transform:scale(2.6) translate(0, 0);
+	transform:scale(2.6) translate(0, 0);
+}
+.content #gamelist .right .down .choose li:nth-of-type(6):hover {
+	-moz-transform:scale(2.6) translate(-100px, 0);
+	-webkit-transform:scale(2.6) translate(-100px, 0);
+	-o-transform:scale(2.6) translate(-100px, 0);
+	-ms-transform:scale(2.6) translate(-100px, 0);
+	transform:scale(2.6) translate(-100px, 0);
+} 
+.content #gamelist .right .down .choose li:nth-of-type(7):hover {
+	-moz-transform:scale(2.6) translate(100px, -38px);
+	-webkit-transform:scale(2.6) translate(100px, -38px);
+	-o-transform:scale(2.6) translate(100px, -38px);
+	-ms-transform:scale(2.6) translate(100px, -38px);
+	transform:scale(2.6) translate(100px, -38px);
+}
+.content #gamelist .right .down .choose li:nth-of-type(8):hover {
+	-moz-transform:scale(2.6) translate(0, -38px);
+	-webkit-transform:scale(2.6) translate(0, -38px);
+	-o-transform:scale(2.6) translate(0, -22px);
+	-ms-transform:scale(2.6) translate(0, -38px);
+	transform:scale(2.6) translate(0, -38px);
+}
+.content #gamelist .right .down .choose li:nth-of-type(9):hover {
+	-moz-transform:scale(2.6) translate(-100px, -38px);
+	-webkit-transform:scale(2.6) translate(-100px, -38px);
+	-o-transform:scale(2.6) translate(-100px, -38px);
+	-ms-transform:scale(2.6) translate(-100px, -38px);
+	transform:scale(2.6) translate(-100px, -38px);
+} 
+
 .content #gamelist .right .down .choose .choosecontent{
 }
 .content #gamelist .right .down .choose .choosecontent dl{
@@ -253,9 +338,6 @@ body{
 .content #gamelist .right .down .choose .choosecontent dt img{
 	margin:0 auto;
 }
-.content #gamelist .right .down .choose .choosecontent dt img:hover{
-	weith:330px;
-}
 .content #gamelist .right .down .choose .choosecontent dd{
 	text-align:center;
 	font-size:12px;
@@ -267,7 +349,7 @@ body{
 .content #gamelist .right .down .choose .choosecontent dd p a:hover{
 	color:red;
 }
-.content #gamelist .right .down li{
+.content #gamelist .right .down .list li{
 	width: 680px;
 	height: 40px;
 	padding-left:20px;
@@ -484,4 +566,16 @@ input[type="submit"]{
 	margin: 0 auto;
     padding: 40px 0px 0px;
     width: 740px;
+}
+
+.footer{
+  clear:both;
+  text-align:center;
+  position:relative;
+  top:150px;
+  width:100%;
+  height:auto;
+  background-color:#3c3c3c;
+  font-size:10px;
+  padding:2px 0px;
 }
