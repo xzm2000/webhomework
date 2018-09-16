@@ -10,6 +10,7 @@ a{
 	color: #666;
 }
 
+/*主题背景*/
 body{
 	background-image: url(../images/all_bg.jpg);
 	background-repeat:no-repeat;
@@ -17,7 +18,8 @@ body{
 	background-size: 1920px 999px;
 	background-attachment: fixed;
 }
-	
+
+/*logo设置*/
 #logo{
 	width: 980px;
 	height: 150px;
@@ -27,6 +29,8 @@ body{
 #logo h1{
 	margin-top: 30px;
 }
+
+/*导航栏特性*/
 #dhl{
 	width: 670px;
 	height: 60px;
@@ -79,15 +83,18 @@ body{
 	height: 60px;
 }
 
+/*首页视频*/
 #video{
 	width: 980px;
 	margin: 0 auto;
 }
+
+/*内容区域通用效果*/
 .content{
 	width: 980px;
 	margin: 0 auto;
 	font-family: "微软雅黑";
-	background-image: url(../images/other_bg.jpg);
+	background-image: url(../images/other_bg.png);
 	background-repeat: no-repeat;
 	background-position: center 0;
 	background-size:980px;
@@ -100,6 +107,8 @@ body{
 	height: 1380px;
 	margin: 10px auto;
 }
+
+/*游戏资料部分效果，left是左侧二级导航栏*/
 .content #gamelist .left{
 	width: 210px;
 	height: 775px;
@@ -163,6 +172,8 @@ body{
 	bottom: 233px;
 	left: 20px;
 }
+
+/*right是右侧文章或者列表的效果*/
 .content #gamelist .right{
 	float: right;
 	width: 730px;
@@ -211,6 +222,8 @@ body{
 .content #gamelist .right .down a:hover{
 	color: red;
 }
+
+/*choose部分为一进去游戏资料里面下面九展示图的内容*/
 .content #gamelist .right .down .choose{
 }
 .content #gamelist .right .down .choose h1{
@@ -314,41 +327,7 @@ body{
 	transform:scale(2.6) translate(-100px, -38px);
 } 
 
-.content #gamelist .right .down .choose .choosecontent{
-}
-.content #gamelist .right .down .choose .choosecontent dl{
-	display:inline-block;
-	height:205px;
-	overflow:hidden;
-	margin-right:20px;
-}
-.content #gamelist .right .down .choose .choosecontent dl:last-child{
-	margin-right:0px;
-}
-.content #gamelist .right .down .choose .choosecontent dt{
-	border:1px solid #ccc;
-	width:190px;
-	height:160px;
-	text-align:center;
-	display:table-cell;
-	max-width:190px;
-	max-height:160px;
-	vertical-align:middle;
-}
-.content #gamelist .right .down .choose .choosecontent dt img{
-	margin:0 auto;
-}
-.content #gamelist .right .down .choose .choosecontent dd{
-	text-align:center;
-	font-size:12px;
-}
-.content #gamelist .right .down .choose .choosecontent dd p a{
-	color:#000;
-	font-size: 15px;
-}
-.content #gamelist .right .down .choose .choosecontent dd p a:hover{
-	color:red;
-}
+/*列表栏*/
 .content #gamelist .right .down .list li{
 	width: 680px;
 	height: 40px;
@@ -367,7 +346,31 @@ body{
 .content #gamelist .right .down .icon{
 	height: 30px;
 }
+.content #gamelist .right .down .images{
+	width:700px; 
+}
+.content #gamelist .right .down .passage{
+	text-indent:2em;
+	
+}
+.content #gamelist .right .down .passage .h3{
+	text-indent:0em;
+	margin: 0 auto;
+}
+.content #gamelist .right .down .passage .h4{
+	text-indent:0em;
+}
+.content #gamelist .right .down .passage .h5{
+	text-indent:0em;
+}
+div.down p{
+	text-indent:2em;
+}
+div .right a{
+	color: black;
+}
 
+/*游戏分析*/
 .content #gamefx{
 }
 .content #gamefx ul{
@@ -404,7 +407,7 @@ body{
 .content #gamefx .passage{
 	margin: 0 auto;
     padding: 40px 0px 0px;
-    width: 740px;
+    width: 640px;
 }
 .content #gamefx .passage .subtab{
 	display: none;
@@ -413,17 +416,21 @@ body{
 	display: block;
 }
 .content #gamefx .passage .show{
-	width: 720px;
+	width: 620px;
+}
+.content #gamefx .passage .author{
+	float: right;
 }
 .content p.sj{
 	text-indent:2em;
 }
 
+/*给我们留言*/
 .content .board{
 	width: 40%;
     margin: 3% auto;
 }
-.content p.boards{
+.content h2.boards{
 	margin: 0 auto;
     padding: 40px 0px 0px;
     width: 740px; 
@@ -515,14 +522,13 @@ input[type="submit"]{
 	margin-right:2.85em;
 }
 
-.content p.aboutus1{
-	margin: 0 auto;
+/*关于我们*/
+.content h3.aboutus1{
     padding: 10px 0px 0px;
     width: 740px; 
 }
-.content p.aboutus2{
-	margin: 0 auto;
-    padding: 10px 0px 0px 420px;
+.content h3.aboutus2{
+    padding: 10px 0px 0px 280px;
     width: 740px;
 }
 .content p.aboutdetail1{
@@ -533,28 +539,28 @@ input[type="submit"]{
     padding: 10px 0px 0px 420px;
     width: 450px;
 }
-.content .aboutus .lyr{
+.content .aboutus #lyr{
 	height: 250px;
 	background-image: url(../images/aboutus/lyr.jpg);
 	background-repeat:no-repeat;
 	background-position:640px;
 	background-size: auto 200px;
 }
-.content .aboutus .xzm{
+.content .aboutus #xzm{
 	height: 250px;
 	background-image: url(../images/aboutus/xzm.jpg);
 	background-repeat:no-repeat;
 	background-position:100px;
 	background-size: auto 200px;
 }
-.content .aboutus .czh{
+.content .aboutus #czh{
 	height: 250px;
 	background-image: url(../images/aboutus/czh.jpg);
 	background-repeat:no-repeat;
 	background-position:640px;
 	background-size: auto 200px;
 }
-.content .aboutus .lyl{
+.content .aboutus #lyl{
 	height: 250px;
 	background-image: url(../images/aboutus/lyl.jpg);
 	background-repeat:no-repeat;
@@ -568,6 +574,16 @@ input[type="submit"]{
     width: 740px;
 }
 
+/*席德梅尔*/
+.content #xdmr{
+	height: 250px;
+	background-image: url(../images/xdme.jpg);
+	background-repeat:no-repeat;
+	background-position:640px;
+	background-size: auto 200px;
+}
+
+/*页脚*/
 .footer{
   clear:both;
   text-align:center;

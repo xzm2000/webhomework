@@ -6,4 +6,7 @@ $(function(){
 		$(this).addClass('active').siblings().removeClass('active');
 		$('#panel0'+thisid).addClass('active').siblings().removeClass('active');
 	});
+	$('#submit').click(function(){
+		alert('感谢你的反馈');
+	})
 });

@@ -3,8 +3,9 @@
 <head>
 	<meta charset="utf-8">
 	<title>给我们留言</title>
-	<link rel="stylesheet" type="text/css" href="../css/1.css">
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
 	<link rel="shortcut icon" type="image/x-icon" href="../images/bit_logo.png" /> 
+	<script type="text/javascript" src="../js/jquery.js"></script>
 	<div id="logo">
 		<h1><img src="../images/logo.png" alt="文明6logo"></h1>
 	</div>
@@ -30,7 +31,7 @@
 				<ul>
 					<li class="style">
 						<a href="#" class="icon user"></a>
-						<input type="text" class="text" value="姓名">
+						<input type="text" name="name" class="text" value="姓名">
 						<div class="clear"></div>
 					</li>
 					<li class="style">
@@ -42,22 +43,23 @@
 					</li>
 					<li class="style">
 						<a href="#" class="icon email"></a>
-						<input type="text" class="text" value="邮箱">
+						<input type="text" name="email" class="text" value="邮箱">
 						<div class="clear"></div>
 					</li>
 					<li class="style">
 						<a href="#" class="icon phone"></a>
-						<input type="text" class="text" value="手机号">
+						<input type="text" name="phone" class="text" value="手机号">
 						<div class="clear"></div>
 					</li>
 					<li class="style">
-						<a href="#" class="icon msg"></a>
+						<a href="#" name="idea" class="icon msg"></a>
 						<textarea>请输入你的意见</textarea>
 					</li>
 				</ul>
-				<input type="submit" value="提交" >
+				<input type="submit" id="submit" value="提交" >
 				<div class="clear"></div>
 			</form>
+    		<script src="../js/default-script.js"></script>
 		</div>
 		<p class="boards"></p>
 	</div>
